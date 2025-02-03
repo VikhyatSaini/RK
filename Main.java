@@ -1,0 +1,16 @@
+import java.util.Scanner;
+
+class Main{
+    public static void main(String a[]){
+        Scanner myObj = new Scanner(System.in);
+
+        Sring name = myObj.nextLine();
+
+        int age = myObj.nextLine();
+        double salary = myObj.nextDouble();
+
+        System.out.println("Name: " + name);
+        System.out.println("Age: " +  age);
+        System.out.println("Salary: " + salary);
+    }
+}
