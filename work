@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Styling and Enhancement</title>
+    <link rel="stylesheet" href="output.css">
+</head>
+<body>
+    <div class="text-center">Jaane wo kaise log the jinke pyar ko pyar mila, Humne to jab kaliya maangi kaaton ka haar mila</div>
+    <!-- text-left, right, justify -->
+     <div class="flex justify-center items-center">hadd ho gyi...(BB ki Vines reference)</div>
+     <div class="m-2 p-2 flex gap-2">ohohoho</div>
+     <div class="md:m-2 md:p-2">Responsive gariyana</div>
+     <!-- sm and lg -->
+      <div class="w-1/2 h-32 bg-amber-400">
+        <p>Half Width and Fixed Height</p>
+      </div>
+      <div class="font-light">Font Weight with light font</div>
+      <div class="font-bold">Font Weight with light font</div>
+      <div class="font-extrabold">Font Weight with light font</div>
+      <div class="text-sm">Small Text</div>
+
+</body>
+</html>
